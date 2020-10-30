@@ -47,7 +47,7 @@ function getUserInfo() {
 }
 // 渲染函数
 function renderAvatar(user) {
-  console.log(user);
+  // console.log(user);
   //获取用户名称
   var name = user.nickname || user.username;
   //设置欢迎的文本
